@@ -4,7 +4,7 @@ from hmmlearn import hmm
 from sklearn.preprocessing import StandardScaler
 from scipy.stats import norm
 import warnings
-warnings.filterwarnings('ignore')
+#warnings.filterwarnings('ignore')
 
 class EnhancedHMMTrader:
     def __init__(self, n_states=3, leverage_limit=2.0, stop_loss=-0.02, 
